@@ -1,0 +1,13 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      - echo Nix for CV
+artifacts:
+  files:
+    - index.html
+    - favicon.ico
+    - IanCorner-CV.pdf
+    - styles/main.css
+    - images/*
